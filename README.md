@@ -1,11 +1,5 @@
 Algorithms Implemented:
 
-K-means Clustering: Unsupervised learning algorithm for clustering data points into K clusters based on similarity.
-Logistic Regression: A supervised learning algorithm used for binary classification tasks.
-Multiple Linear Regression: A supervised learning algorithm for predicting a continuous target variable based on multiple predictor variables.
-Random Forest Classifier: An ensemble learning method that constructs a multitude of decision trees at training time and outputs the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees.
-Support Vector Machine (SVM): A supervised learning algorithm used for classification and regression tasks. It works by finding the hyperplane that best separates the classes in feature space.
-
 K-means Clustering:
 K-means clustering is implemented using the Lloyd's algorithm, which iteratively assigns data points to the nearest cluster centroid and updates the centroids based on the mean of the assigned points. The process continues until convergence, where centroids no longer change significantly or a maximum number of iterations is reached. The algorithm aims to minimize the within-cluster variance, effectively partitioning the data into K distinct clusters.
 
